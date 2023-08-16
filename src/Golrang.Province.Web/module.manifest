@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+  <id>Golrang.Province</id>
+  <version>3.200.0</version>
+  <version-tag></version-tag>
+
+  <platformVersion>3.253.1</platformVersion>
+  <dependencies>
+    <!--<dependency id="VirtoCommerce.Core" version="3.200.4" />-->
+  </dependencies>
+
+  <title>Golrang Province module</title>
+  <description>Golrang Province module</description>
+
+  <authors>
+    <author>MohammadReza</author>
+  </authors>
+  <owners>
+    <owner>Golrang</owner>
+  </owners>
+
+  <projectUrl>https://github.com/Golrang/vc-module-province</projectUrl>
+  <iconUrl>Modules/$(Golrang.Province)/Content/logo.png</iconUrl>
+  <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+  <assemblyFile>Golrang.Province.Web.dll</assemblyFile>
+  <moduleType>Golrang.Province.Web.Module, Golrang.Province.Web</moduleType>
+
+  <releaseNotes>First version.</releaseNotes>
+  <copyright>Copyright © 2023 Golrang. All rights reserved</copyright>
+  <tags>extension module</tags>
+  <useFullTypeNameInSwagger>false</useFullTypeNameInSwagger>
+</module>

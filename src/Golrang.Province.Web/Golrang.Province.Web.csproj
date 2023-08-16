@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <!-- Project is not a test project -->
+    <SonarQubeTestProject>false</SonarQubeTestProject>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Golrang.Province.Core\Golrang.Province.Core.csproj" />
+    <ProjectReference Include="..\Golrang.Province.Data\Golrang.Province.Data.csproj" />
+  </ItemGroup>
+</Project>

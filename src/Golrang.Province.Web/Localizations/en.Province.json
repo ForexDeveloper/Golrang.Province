@@ -1,0 +1,28 @@
+{
+  "Province": {
+    "blades": {
+      "hello-world": {
+        "title": "Hello world blade"
+      }
+    }
+  },
+  "permissions": {
+    "Province:access": "Open Province menu",
+    "Province:create": "Create Province related data",
+    "Province:read": "View Province related data",
+    "Province:update": "Update Province related data",
+    "Province:delete": "Delete Province related data"
+  },
+  "settings": {
+    "Province": {
+      "ProvinceEnabled": {
+        "title": "Province Enabled",
+        "description": "Province Enabled setting"
+      },
+      "ProvincePassword": {
+        "title": "Province Password",
+        "description": "Province Password setting"
+      }
+    }
+  }
+}
